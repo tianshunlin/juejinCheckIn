@@ -6,6 +6,7 @@ env:
   PASS: ${{ secrets.PASS }}
   EMAIL: ${{ secrets.EMAIL }}
   SERVICE: ${{ secrets.SERVICE }}
+  TO: ${{ secrets.TO }}
 
 on:
   # 手动触发
