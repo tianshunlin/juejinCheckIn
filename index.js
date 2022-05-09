@@ -190,7 +190,7 @@ const sendEmail = async () => {
     // 发送邮件
     await transporter.sendMail({
       from: process.env.EMAIL,
-      to: process.env.EMAIL,
+      to: process.env.TO,
       subject: '掘金签到通知🔔',
       html: template({
         logs: logs
