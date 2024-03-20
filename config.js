@@ -7,7 +7,7 @@ module.exports = {
     // 签到
     checkIn: '/growth_api/v1/check_in',
     // 查询签到
-    getCheckStatus: '/growth_api/v1/get_today_status',
+    getCheckStatus: '/growth_api/v2/get_today_status',
     // 查询签到天数
     getCheckInDays: '/growth_api/v1/get_counts',
     // 查询当前矿石
