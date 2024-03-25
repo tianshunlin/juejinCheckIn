@@ -33,7 +33,7 @@ const getCheckStatus = async () => {
       url: config.api.getCheckStatus,
       method: 'get'
     })
-    return getCheckStatusRes.data
+    return getCheckStatusRes.data.check_in_done
   } catch (error) {
     throw `查询签到失败!【${error}】`
   }
